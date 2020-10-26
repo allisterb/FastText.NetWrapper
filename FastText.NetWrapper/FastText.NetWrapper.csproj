@@ -21,11 +21,12 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="10.0.0" />
-    <PackageReference Include="FastText.Native.Linux" Version="1.0.109" />
-    <PackageReference Include="FastText.Native.MacOs" Version="1.0.109" />
     <PackageReference Include="FastText.Native.Windows" Version="1.0.109" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="3.1.5" />
-    <PackageReference Include="NativeLibraryManager" Version="1.0.23" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\NativeLibraryManager2\NativeLibraryManager\NativeLibraryManager.csproj" />
   </ItemGroup>
 
 </Project>
