@@ -6,7 +6,7 @@ namespace FastText.NetWrapper
 {
     public partial class FastTextWrapper
     {
-        internal const string FastTextDll = "libfasttext.so";
+        internal const string FastTextDll = "fasttext";
 
         public enum model_name : int { cbow = 1, sg, sup };
 
